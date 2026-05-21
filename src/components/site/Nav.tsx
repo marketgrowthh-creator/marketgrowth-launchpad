@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-marketgrowth.png";
+
 export function Nav() {
   const links = [
     { href: "#servicios", label: "Servicios" },
@@ -9,7 +11,7 @@ export function Nav() {
     <header className="fixed top-0 inset-x-0 z-40 backdrop-blur-xl bg-background/70 border-b border-border/60">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
-          <span className="font-display text-xl tracking-tight">Market<span className="text-gold">Growth</span></span>
+          <img src={logo} alt="MarketGrowth" className="h-9 w-auto object-contain" />
         </a>
         <nav className="hidden md:flex items-center gap-10 text-sm text-muted-foreground">
           {links.map((l) => (
