@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-marketgrowth.png";
+
 export function Hero() {
   return (
     <section id="top" className="relative pt-40 pb-32 overflow-hidden">
@@ -5,12 +7,15 @@ export function Hero() {
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 h-[600px] w-[600px] rounded-full bg-gold-soft/30 blur-3xl" />
       </div>
       <div className="mx-auto max-w-5xl px-6 text-center">
+        <img
+          src={logo}
+          alt="MarketGrowth · Expansión Digital"
+          className="animate-fade-in mx-auto mb-10 h-40 md:h-56 w-auto object-contain"
+        />
         <p className="animate-fade-in text-xs uppercase tracking-[0.4em] text-muted-foreground mb-8">
           Agencia de Marketing Digital
         </p>
-        <h1 className="animate-fade-up text-5xl md:text-7xl lg:text-8xl leading-[1.05]">
-          Market<span className="text-gold">Growth</span>
-        </h1>
+        <h1 className="sr-only">MarketGrowth</h1>
         <div className="mx-auto mt-10 max-w-2xl">
           <div className="divider-gold mb-8 mx-auto w-40" />
           <p className="animate-fade-up text-lg md:text-xl text-muted-foreground leading-relaxed" style={{ animationDelay: "120ms" }}>
