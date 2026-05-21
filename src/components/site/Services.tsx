@@ -11,8 +11,7 @@ const services = [
     title: "Fotografía profesional",
     desc: "Sesión completa para potenciar la imagen de tu marca.",
     items: [
-      { label: "Pack completo", price: "200€" },
-      { label: "120 fotos empresa · 80 fotógrafo", price: "" },
+      { label: "Sección de fotos profesional", price: "200€" },
     ],
   },
   {
