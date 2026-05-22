@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "XXXXXXXXXXX"; // Reemplazar por el número real
+const WHATSAPP_NUMBER = "642683123";
 const WHATSAPP_MESSAGE = "Hola MarketGrowth, quiero información sobre vuestros servicios";
 
 export const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
